@@ -203,7 +203,7 @@ public class MessageManager : MessageObject
         switch (key)
         {
             case "c":
-                udp.SendMessage("192.168.0.106","connect:start");
+                udp.SendMessage("***.***.***.***","connect:start");//接続先アドレス⇒時間が無かったので直打ち
                 break;
             case "escape":
                 Application.Quit();
